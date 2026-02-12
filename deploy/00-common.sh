@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+export DEBIAN_FRONTEND=noninteractive
+
 # containerd
 sudo apt-get update
 sudo apt-get install -y containerd
